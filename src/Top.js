@@ -11,6 +11,7 @@ class Top extends Component {
                 <div className="Nav" >
                     {/* Add links here */}
                     <Link to='/' className="tbLink">Home</Link>
+                    <Link to='/Forms/Valid' className="tbLink">Forms Validation</Link>
                     <Link to='/Goals' className="tbLink">Goals</Link>
                     <Link to='/Classes' className="tbLink">Class</Link>
                 </div> 

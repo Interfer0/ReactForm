@@ -4,6 +4,7 @@ import App from './App';
 import Top from './Top';
 import Classes from './routes/myClasses';
 import Goals from './routes/Goals';
+import Valid from './routes/Valid';
 import './index.css';
 import {Router, Route, browserHistory} from 'react-router';
 
@@ -16,6 +17,7 @@ ReactDOM.render((
     <Route path="/" component={App} />
     <Route path="/Classes" component={Classes} />
     <Route path="/Goals" component={Goals} />
+    <Route path="/Forms/Valid" component={Valid} />
   </Router>
 ), document.getElementById('info'));
 
