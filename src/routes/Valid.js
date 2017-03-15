@@ -3,15 +3,9 @@ import React, { Component } from 'react';
 import '../css/myStyle.css';
 import Top from '../Top';
 
-class Goals extends Component  {
+class Valid extends Component  {
     
-    constructor(props){
-        super(props);
-        
-        this.state = {
-            posts: [],
-        }
-    };
+
     
     loadData(){
         
@@ -26,7 +20,7 @@ class Goals extends Component  {
             <div className="Valid">
                 <Top />
                     <div className="myForm">
-
+                    
                     </div>
             </div>
         );
@@ -34,4 +28,4 @@ class Goals extends Component  {
     }
 }
 
-export default Goals;
+export default Valid;

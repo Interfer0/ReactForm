@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Top from './Top';
 import Classes from './routes/myClasses';
 import Goals from './routes/Goals';
 import Valid from './routes/Valid';
 import './index.css';
 import {Router, Route, browserHistory} from 'react-router';
+
 
 //ReactDOM.render((
 //  <Top />

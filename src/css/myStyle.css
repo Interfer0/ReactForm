@@ -32,8 +32,14 @@
     margin: auto;
 }
 
-.myClasses{
-    
+.myForm{
+    background-color: mediumseagreen;
+    padding: 10px;
+    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+    height: 300px;
 }
 
 myClasses-intro{
