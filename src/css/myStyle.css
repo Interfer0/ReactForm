@@ -38,13 +38,25 @@
     margin: 10px;
     margin-right: auto;
     margin-left: auto;
-    width: 25%;
+    width: 50%;
     height: 300px;
 }
-
-myClasses-intro{
-    
+.itmForm{
+    margin-top: 10px;
+    width: 100%;
 }
+
+.btnForm{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btnFormBtn{
+    width:30%;
+}
+
 .Item{
     border-style: solid;
 }

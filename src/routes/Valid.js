@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 //import aGoal from '../js/goals';
 import '../css/myStyle.css';
 import Top from '../Top';
+import FormContainer from '../Containers/FormContainer';
 
 class Valid extends Component  {
     
@@ -20,7 +21,7 @@ class Valid extends Component  {
             <div className="Valid">
                 <Top />
                     <div className="myForm">
-                    
+                        <FormContainer />
                     </div>
             </div>
         );
