@@ -46,6 +46,12 @@
     width: 100%;
 }
 
+.tbox{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .btnForm{
     margin-top: 10px;
     width: 100%;
