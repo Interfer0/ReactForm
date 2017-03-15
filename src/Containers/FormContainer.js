@@ -11,17 +11,17 @@ class FormContainer extends Component {
   }
 
   handlePhoneChange() {
-      if(document.getElementById('frmPhone').value.match(/\d/)){
+      if(document.getElementById('frmPhone').value.match(/[a-zA-Z]/)){
+            document.getElementById('frmPhone').style.color = 'red';
+      } else {
         if(
-                (document.getElementById('frmPhone').value.match(/\d/g).length <= 10) ||
-                iz.blank(document.getElementById('frmPhone').value)
+            (document.getElementById('frmPhone').value.match(/\d/g).length <= 10) ||
+            iz.blank(document.getElementById('frmPhone').value)
         ) {
-                document.getElementById('frmPhone').style.color = 'black';
+            document.getElementById('frmPhone').style.color = 'black';
         } else {
             document.getElementById('frmPhone').style.color = 'red';
         }
-      } else {
-          document.getElementById('frmPhone').style.color = 'red';
       }
       
   }
@@ -68,7 +68,8 @@ class FormContainer extends Component {
           name={'name'}
           onChange={this.handlePhoneChange}
           content="hh"
-          placeholder={'Enter your phone number'} />
+          placeholder={'Enter your phone number'}
+          ValidChars="1234567890"  />
         </div>
         <div className="btnForm">
             <button
