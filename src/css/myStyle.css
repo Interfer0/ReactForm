@@ -32,13 +32,37 @@
     margin: auto;
 }
 
-.myClasses{
-    
+.myForm{
+    background-color: mediumseagreen;
+    padding: 10px;
+    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: 300px;
+}
+.itmForm{
+    margin-top: 10px;
+    width: 100%;
 }
 
-myClasses-intro{
-    
+.tbox{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.btnForm{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btnFormBtn{
+    width:30%;
+}
+
 .Item{
     border-style: solid;
 }
